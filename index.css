@@ -49,3 +49,15 @@ main .age-rating {
     border-radius: 0.25rem;
     padding: 0.2rem;
 }
+
+main .movie-description {
+    width: 60%;
+}
+
+.btn-play {
+    text-decoration: none;
+    color: white;
+    background: red;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+}
