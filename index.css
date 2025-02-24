@@ -1,0 +1,51 @@
+body {
+    font-family: Helvetica, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.user-control {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.user-control img {
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+}
+
+main {
+    aspect-ratio: 5/3;
+    border: 1px solid red;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+main .movie-statistics {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+main .movie-rating i{
+    color: red; 
+}
+
+main .age-rating {
+    border: 1px solid black;
+    border-radius: 0.25rem;
+    padding: 0.2rem;
+}
