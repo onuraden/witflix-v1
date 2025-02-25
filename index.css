@@ -2,6 +2,8 @@ body {
     font-family: Helvetica, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, sans-serif;
 }
 
+/* Header */
+
 header {
     display: flex;
     justify-content: space-between;
@@ -25,6 +27,8 @@ header nav {
     height: 2rem;
 }
 
+/* Main */
+
 main {
     aspect-ratio: 5/3;
     border: 1px solid red;
@@ -44,7 +48,7 @@ main .movie-rating i{
     color: red; 
 }
 
-main .age-rating {
+.age-rating {
     border: 1px solid black;
     border-radius: 0.25rem;
     padding: 0.2rem;
@@ -54,10 +58,74 @@ main .movie-description {
     width: 60%;
 }
 
+.movie-details {
+    margin-bottom: 2rem;
+}
+
+.movie.details i {
+
+}
+
+.movie-details span {
+    color: red;
+    font-weight: bold;
+}
+
 .btn-play {
     text-decoration: none;
     color: white;
     background: red;
-    padding: 0.5rem 1rem;
+    padding: 0.8rem 3rem;
     border-radius: 0.5rem;
+
+}
+
+.btn-play i { 
+    margin-left: -1rem;
+}
+
+/* Suggestion */
+
+.suggestion-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.suggestion-heading h2 {
+    font-size: 1.5rem;
+}
+
+.suggestion-heading a {
+    text-decoration: none;
+    color: black;
+}
+
+.suggestion-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    overflow: auto;
+    padding-bottom: 1rem;
+}
+.suggestion-item {
+    border: 1px solid black;
+    padding: 0.8rem;
+    min-width: 180px;
+}
+
+.suggestion-movie-details {
+    display: flex;
+    gap: 0.8rem;
+    align-items: center;
+    margin-bottom: 0.8rem;
+}
+
+.suggestion-item a {
+    display: inline-block;
+}
+
+.suggestion-item .btn-play {
+    padding: 0.5rem 1.5rem;
+    font-size: 0.9rem;
 }
